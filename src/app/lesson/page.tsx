@@ -28,9 +28,9 @@ export default function Quiz() {
 
     return (
         <div className="space-y-6">
-            <div className="space-y-1 border-b px-24 py-6 flex justify-between items-center">
+            <div className="space-y-1 border-b px-8 md:px-24 py-6 flex justify-between items-center">
                 <div>
-                    <h1 className="text-2xl font-bold">Lição: Orçamento Pessoal</h1>
+                    <h1 className="text-xl md:text-2xl font-bold">Lição: Orçamento Pessoal</h1>
                     <div className="flex items-center gap-4 text-sm text-muted-foreground">
                         <div className="flex items-center gap-1">
                             <Clock className="size-4" />
