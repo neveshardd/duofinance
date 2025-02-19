@@ -4,11 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx --watch src/server.ts",
-    "build": "tsc",
-    "start": "node dist/server.js",
-    "postinstall": "prisma generate"
-  },
+  "dev": "tsx src/server.ts",
+  "build": "tsc && mkdir -p build && cp -r package.json prisma build/",
+  "start": "node build/server.js"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
