@@ -1,6 +1,6 @@
 import { FastifyTypedInstance } from "../types";
 
-export function profile(app: FastifyTypedInstance) {
+export function session(app: FastifyTypedInstance) {
     app.addHook('onRequest', async (request, reply) => {
         try {
             await request.jwtVerify()
@@ -12,7 +12,7 @@ export function profile(app: FastifyTypedInstance) {
         }
     })
 
-    app.get('/profile', {
+    app.get('/session', {
         schema: {
             description: 'Verificar se o usuário está logado',
             tags: ['auth'],

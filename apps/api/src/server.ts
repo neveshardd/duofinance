@@ -6,7 +6,8 @@ import fastifySwaggerUi from "@fastify/swagger-ui";
 import { createUsers, deleteUser, listUsers, updateUser } from "./routes/users";
 import fastifyJwt from "@fastify/jwt";
 import { login } from "./routes/login";
-import { profile } from "./routes/profile";
+import { session } from "./routes/session";
+import register from "./routes/register";
 
 const app = fastify().withTypeProvider<ZodTypeProvider>();
 
@@ -36,9 +37,10 @@ app.register(fastifySwaggerUi, {
 app.register(createUsers)
 app.register(listUsers)
 app.register(login)
-app.register(profile)
+app.register(session)
 app.register(deleteUser)
 app.register(updateUser)
+app.register(register)
 
 if (!process.env.JWT_SECRET) {
     console.error('JWT_SECRET is not defined');
