@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Duofinance - A melhor aplicação de finanças do mundo",
+  title: "Stonxis - A melhor aplicação de finanças do mundo",
   description: "A melhor aplicação de finanças do mundo",
 };
 

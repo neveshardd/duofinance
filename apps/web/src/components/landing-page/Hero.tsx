@@ -4,7 +4,7 @@ import { GoArrowRight } from "react-icons/go";
 export default function Hero() {
     return (
         <>
-            <div className="flex flex-col justify-center items-center px-5 h-full gap-10 mt-14 md:px-12">
+            <div className="flex flex-col justify-center items-center px-5 h-full gap-8 mt-24 md:px-12">
                 <span className="border px-4 py-1 flex items-center gap-1 bg-white/10 rounded-full font-bold">
                     <Image src="/logo.png" alt="Logo" width={30} height={30} />  Your savings to the moon
                 </span>
@@ -26,8 +26,6 @@ export default function Hero() {
                         </button>
                     </div>
                 </form>
-
-
             </div>
         </>
     )
