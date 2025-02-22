@@ -15,7 +15,7 @@ export default function Hero() {
 
             <div className="text-center items-center flex-col hidden md:flex">
                 <div className="text-2xl md:text-7xl font-bold md:max-w-7xl flex gap-2">Transforme seu conhecimento</div>
-                <div className="text-2xl md:text-7xl font-bold md:max-w-6xl flex gap-2">financeiro em <Image src="/bitcoin.png" alt="Logo" width={100} height={100} className="hidden md:flex" />resultados</div>
+                <div className="text-2xl md:text-7xl font-bold md:max-w-6xl flex gap-2">financeiro em <Image src="/3d-wallet.png" alt="Logo" width={75} height={75} className="hidden md:flex" />resultados</div>
             </div>
 
             <FormNewsletter />

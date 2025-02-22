@@ -16,9 +16,9 @@ export default function CardRight() {
             </div>
             <div className="bg-white rounded-xl p-2">
                 <div className="flex flex-col justify-between border p-4 rounded-xl items-center text-center gap-4">
-                    <Image src="/3d-report.png" alt="Logo" width={70} height={70} />
-                    <h3 className="text-black font-bold">Quer mais controle sobre suas finanças?</h3>
-                    <p className="text-black text-xs">Aprenda a equilibrar gastos e ganhos para uma vida financeira mais estável e sem surpresas.</p>
+                    <Image src="/3d-rocket.png" alt="Logo" width={70} height={70} />
+                    <h3 className="text-black font-bold">Aprenda todo dia e gerencia suas finanças de forma simples</h3>
+                    <p className="text-black text-xs">Exercícios, pontos, níveis e muita prática. Transforme o seu controle financeiro em hábito.</p>
                     <div className="text-start border rounded-xl w-full px-3 h-20 flex flex-col justify-center">
                         <p className="text-black font-bold text-sm">Poupar com estratégia</p>
                         <span className="text-black text-xs">Descubra formas simples e eficazes de economizar.</span>

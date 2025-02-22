@@ -6,7 +6,7 @@ export default function CardLeft() {
             <div className="bg-white rounded-xl p-2">
                 <div className="flex justify-between border p-4 rounded-xl items-center">
                     <div className="flex items-center text-black text-xs gap-1 font-semibold">
-                        <Image src="/3d-wallet.png" alt="Logo" width={30} height={30} />
+                        <Image src="/3d-fire.png" alt="Logo" width={30} height={30} />
                         +R$ 1.500,00
                     </div>
                     <div className="text-green-500 text-xs">
