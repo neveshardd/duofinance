@@ -66,7 +66,7 @@ export default function Quiz() {
 
                     <div className="flex justify-between pt-4">
                         <Button variant="outline">Anterior</Button>
-                        <Button variant="next">Próxima</Button>
+                        <Button variant="default">Próxima</Button>
                     </div>
                 </Card>
 
