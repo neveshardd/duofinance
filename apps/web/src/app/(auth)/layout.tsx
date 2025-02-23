@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import "./globals.css";
-import "@/lib/supressAuthErrors"
+import "../../app/globals.css";
 
 export const metadata: Metadata = {
   title: "Stonxis - Educação Financeira Sem Complicação.",
