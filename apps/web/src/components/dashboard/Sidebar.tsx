@@ -22,7 +22,7 @@ const pages = [
 export default function Sidebar() {
     return (
         <div className="bg-neutral-200 h-full w-full py-3 space-y-6 px-6 flex flex-col">
-            <h2 className="text-2xl font-extrabold">duofinance</h2>
+            <h2 className="text-2xl font-extrabold">stonxis</h2>
             <ul className="space-y-2 flex-1">
                 {pages.map((page) => (
                     <li key={page.name} className="hover:bg-neutral-600">

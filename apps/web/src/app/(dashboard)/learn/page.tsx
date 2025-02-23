@@ -1,5 +1,5 @@
-export default function LearnPage() {
-    return (
-        <div></div>
-    )
+export default function Learn(){
+  return (
+    <h1>Hello World</h1>
+  )
 }

@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
 import "../../app/globals.css";
-import Sidebar from "@/components/dashboard/Sidebar";
 
 export const metadata: Metadata = {
-  title: "Duofinance - A melhor aplicação de finanças do mundo",
-  description: "A melhor aplicação de finanças do mundo",
+  title: "Stonxis - Educação Financeira Sem Complicação.",
+  description: "Educação Financeira Sem Complicação.",
 };
 
 export default function RootLayout({
@@ -14,13 +13,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className="flex h-screen">
-        <div className="w-56">
-          <Sidebar />
-        </div>
-        <div className="flex-1 p-3">
+      <body>
           {children}
-        </div>
       </body>
     </html>
   );
